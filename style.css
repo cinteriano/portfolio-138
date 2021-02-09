@@ -1,4 +1,24 @@
-h1 {
+.hero {
+    padding: 60px;
+    color:black;
+    font-size: 50px;
+    background-color: cadetblue;
+    font-family: fantasy;
 
-    color: aquamarine;
+} 
+
+
+nav {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
 }
+
+.nav-item-list {
+    display: flex;
+    flex-direction: row;
+}
+
+
