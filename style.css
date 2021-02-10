@@ -23,7 +23,7 @@ nav {
     float: right;
     padding: 10px;
     flex-direction: row;
-    
+    text-decoration:none ;
     
 }
 
@@ -43,18 +43,23 @@ body{
 
 .top-left{
 
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     color: whitesmoke;
-    margin: 80px;
+    margin: 100px;
     font-size: 50px;
 }
     
 
-.li-a{
 
+.link-list {
+ color: black;
 
 }
+
+
+
+
 
 
 
