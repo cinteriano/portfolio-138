@@ -24,12 +24,15 @@ nav {
     padding: 10px;
     flex-direction: row;
     
+    
 }
 
 li {
     padding: 10px;
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
 }
 
 body{
@@ -38,13 +41,20 @@ body{
 }
     
 
-#top-left{
+.top-left{
 
     display: flex;
-    align-items: center;
-    color: yellow;
+    flex-direction: column;
+    color: whitesmoke;
+    margin: 80px;
+    font-size: 50px;
 }
     
+
+.li-a{
+
+
+}
 
 
 
