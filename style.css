@@ -1,24 +1,50 @@
 .hero {
-    padding: 60px;
-    color:black;
-    font-size: 50px;
-    background-color: cadetblue;
-    font-family: fantasy;
+    padding: 20px;
+    color:whitesmoke;
+    font-size: 30px;
+    background-color:#560319;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -10px;
 
 } 
 
 
 nav {
 
-    display: flex;
+    display: block;
     justify-content: space-evenly;
     align-items: center;
     margin: auto;
+    padding: 10 px;
 }
 
 .nav-item-list {
     display: flex;
+    float: right;
+    padding: 10px;
     flex-direction: row;
+    
 }
+
+li {
+    padding: 10px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#91a3b0;
+}
+    
+
+#top-left{
+
+    display: flex;
+    align-items: center;
+    color: yellow;
+}
+    
+
 
 
