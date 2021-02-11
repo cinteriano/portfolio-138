@@ -41,7 +41,7 @@ body{
 }
     
 
-.top-left{
+#top-left{
 
     display: inline-flex;
     flex-direction: column;
@@ -55,6 +55,15 @@ body{
 .link-list {
  color: black;
 
+}
+
+#projects-1{
+    display: inline-flex;
+    flex-direction: column;
+    color: whitesmoke;
+    margin: 100px;
+    font-size: 50px;
+    
 }
 
 
